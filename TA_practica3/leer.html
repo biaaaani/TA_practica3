@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Gramatics</title>
+        <link rel="shortcut icon" href="img\favicon.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css\estilos.css">
+        <link rel="stylesheet" href="css\normalize.css">
+
+    </head>
+    <body>
+        <header>
+           <div class="contenedor">
+               <div> <img src="img\logo.jpg" alt="logo" class="logo"></div>
+                <nav class="menu"> 
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="crear.htmll">Crear</a></li>
+                        <li><a href="leer.html">Leer</a></li>
+                        <li><a href="index.html">Acerca de</a></li>
+                       
+                    </ul>
+            </div>
+        <h1>Analiza y modifica una gramatica </h1>
+        <input type="file" name="Importar gramatica" id="inputGrammar">
+        <!-- <a  class="fa fa-download"></a>-->
+     </div> 
+     <div class="cont_input_text">
+       
+         <input type="button" href="#" onclick="setGrammarType()" value="Mostrar tipo">
+         <a href="#" onclick="onSaveClick()"><i  aria-hidden="true"></i></a>
+     </div>
+
+     <div class="board">
+     
+     </div>
+     <form autocomplete="off" onsubmit="onFormSubmit()">
+         <div class="cont_insert">
+             <table>
+                 <tr>
+                     <td>                                           
+                         <div class="cont_input_text">
+                             <div class="cont_btn_siglamb">
+                                 <input type="button" value="Σ" onclick="onSigmaClick()" id="sigma_btn">
+                                 <input type="button" value="Σ→λ" onclick="onLambdaClick()" id="lambda_btn">
+                             </div>
+                             <input type="text" placeholder="izquierda" id="izquierdo" required>
+                             <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                             <input type="text" placeholder="derecha" id="derecho" required>
+                         </div>
+
+                         <div class="cont_btn_input">
+                             <input type="submit" value="Insertar">
+                             <input type="button" value="Reiniciar" onclick="resetInput()">
+                         </div>
+
+                         <div class="guardargramatics">
+                             <input type="button" value="Guardar archivo" onclick="onSaveClick()">
+                         </div>
+                     </td>
+                 </tr>
+             </table>
+         </div>
+     </form>
+   
+     <section class="cont_editor">
+         <div class="cont_crud">
+             <div>
+
+                 <div class="container1">
+                     <table id="gramaticacreada">
+                         <thead>
+                             <tr>
+                                 <th>Izquierda</th>
+                                 <th>Derecha</th>
+                                 <th>Acciones</th>
+                                 <th>Análisis</th>
+                             </tr>
+                         </thead>
+
+                         <tbody>
+       
+                         </tbody>
+                     </table>
+                 </div>
+             <div>
+         </div>
+     </section>
+
+ <script type="text/javascript" src="./js/crear.js"></script>
+ <script type="text/javascript" src="./js/tipos.js"></script>
+ <script type="text/javascript" src="./js/fileSaver.js"></script>
+
+
+
+    </body>
+</html>

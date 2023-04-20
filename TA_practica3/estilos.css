@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor {
+    background-color:rgb(160, 160, 224);
+}
+.logo {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.contenedor nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contenedor nav ul {
+    
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: colum;
+   
+  
+   
+}
+
+h1{
+   color: rgb(160, 160, 224);
+}
+
+.contenedor  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+.contenedor nav ul a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(160, 160, 224);
+}
+
+button {
+    background-color: rgb(238, 243, 239);
+    color: rgb(160, 160, 224);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.container1 {
+    border: solid 1px black rgb(red, green, blue);
+    margin: 100px auto;
+    margin-right: 90px auto;
+    margin-left: 90px auto;
+    
+  }
+
+  table{
+        width: 100%;
+      color: rgb(17, 17, 17);
+      font-size: 14px;
+      table-layout: fixed;
+      border-collapse: collapse;
+     
+
+  
+  }
+  
+  thead{
+      background: rgb(168, 168, 226);  
+  }
+
+  th{
+      padding: 20px 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+  
+  td{
+      padding: 15px;
+      border-bottom: solid 1px rgb(168, 168, 226);
+  }
+
+  tbody tr:hover{
+      background: rgb(210, 210, 224);
+  }

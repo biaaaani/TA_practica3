@@ -1,0 +1,49 @@
+.inputgenerador{
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+.cont_btn_siglamb{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(160, 160, 224);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+       
+}
+
+.cont_btn_input{
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+
+.guar_ana_btn{
+    margin-top: 30px;
+    margin-left: 1140px;
+}
+
+.cont_type_gr{
+    width: 94%;
+    margin-left: 3%;
+    padding-top: 15px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #b890b4;
+    color: #e0c6d6;
+    text-indent: 20px;
+    font-size: 18px;
+}
+
+.guardargramatics{
+    position: absolute;
+    right: 5%;
+    font-size: x-large;
+    background-color: rgb(235, 204, 219);
+    color : #cf1086;
+   padding: 10px 20px;
+}
